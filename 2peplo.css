@@ -72,8 +72,33 @@ button{
 }
 
 
-@media(max-width:1200px){
+@media (max-width:650px){
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "poppins", Sans-Serif;
+     }
+     h1{
+     width:278px ;
+     height: 70px;  
+     font-weight: 700;
+     text-align: center;
+     font-size: 30px;
+     line-height: 30px;
+     }
+
+     p{
+     height: 165px;
+     width: 304px;
+     text-align: center;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 35px;
+     margin-top: 24px;
      
+     }
+
      a{
           display: none;
      }
@@ -83,11 +108,30 @@ button{
      }
      
      img{
-          margin-top:272px;
+          width: 290px;
+          margin-top:142px;
+          margin-left:35px ;
      }
      
      .more{
-          margin-left:184px;
+          margin-left:94px;
+          width: 112px;
+          height: 27px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 1px;
+          margin-top: 37px;
+     }
+
+     button{
+          width: 91px;
+          height: 31px;
+          font-size: 12px;
+          margin-left: 235px;
+          margin-top: 6px;
+          font-weight: 500;
+          text-align: center;
+          
      }
      
      
