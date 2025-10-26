@@ -1,0 +1,115 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins', Sans-Serif;
+}
+h4{
+     width: 493px;
+
+height: 99px;
+
+font-weight: 400;
+
+font-size: 28px;
+
+line-height: 33px;
+
+letter-spacing: 0.5px;
+
+color: #4b505a;
+margin-left: 163px;
+
+}
+
+.esquerda{
+     margin: 163px 0px 0px 123px;
+
+     height: 500px;
+     
+     margin-left: 10px;
+     position: bottom(0px);
+     margin-top: 60px;
+}
+
+h1{
+     font-weight: 700px;
+
+font-size: 72px;
+
+line-height: 82px;
+
+letter-spacing: 0.6px;
+
+width: 582px;
+
+height: 164px;
+
+color: #161449;
+margin-left:163px;
+     
+}
+
+
+header{
+     margin-top: 47px;
+     margin-left: 275px;
+     
+}
+
+
+.link-header{
+     margin-right: 32px;
+
+font-weight: 400px;
+font-size: 14px;
+
+Line-height:21px ;
+
+text-align:center;
+
+letter-spacing:4px;
+
+color:  #17233d;
+
+
+}
+
+.butao-header{
+width: 124px;
+
+height: 51px;
+
+border: none;
+
+border-radius: 15px;
+
+background: #6FBF44;
+
+font-weight: 500;
+
+font-size: 14px;
+
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.butao{
+     color: #6FBF44;
+     background: transparent;
+     border: none;
+     
+     margin-left:163px;
+     margin: 165px;
+     margin-top: 125px;
+     font-size: 20px;
+}
+
+div{
+     margin-left: 5px;
+     position: absolute;
+     margin-top: 112px;
+     display: inline-block;
+     
+}
