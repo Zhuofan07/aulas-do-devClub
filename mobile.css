@@ -33,7 +33,7 @@ width: 100vh;
 img{
      position: relative;
      top: 10%;
-     right: 32%;
+     right: 16%;
 }
 
 h1{
@@ -85,4 +85,55 @@ a{
 }
 a:nth-child(2){
      opacity:40% ;
+}
+
+
+
+
+@media screen and (max-width: 650px){
+     *{
+          height: 100vh;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "oswald", Sans-Serif;
+     }
+     .mobile{
+          margin-top: 42px;
+          width: 320px;
+          text-align: center;
+          margin-right: 40px;         
+     
+     }
+     p{
+          margin-bottom: 420px;
+          width: 310px;
+          font-size: 28px;
+          line-height: 32px;
+          text-align: center;
+     }
+
+    
+     .fundo{
+     position: absolute;
+     display: inline-block;
+     width: 100%;
+     height: 50vh;
+     background-color: rgba(93,93,125,0.16);  
+     margin-top: 450px;  
+     margin-left: 0px;
+     }
+
+     a{
+          display: none;
+
+     }
+     .text-and-button{
+          position: absolute;
+          margin-top: 2%;
+          padding-left: 40px;
+          text-align: center;
+     }
+     
+
 }

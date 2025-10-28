@@ -3,6 +3,19 @@
      padding: 0;
      box-sizing: border-box;
      font-family: "poppins", Sans-Serif;
+     translate: none;
+}
+button{
+     position: static;
+     width: 124px;
+     height: 51px;
+     border-radius: 6px;
+     border-width: 1px;
+     background: #6FBF44;
+     color: #fff;
+     font-size: 26px;
+     font-weight: 400;
+     margin: 0px, 0px 0px 0px;
 }
 .options-header{
      
@@ -13,8 +26,11 @@
      letter-spacing: 0.88px; 
      margin-right: 42px;
      margin-left: 26px;
-     margin: 0px 32px 0px 26px;
+     margin: 0 32px 0px 26px;
+     
 }
+
+
 .text-right{
      margin-left: 800px;
      position: absolute;
@@ -51,24 +67,15 @@ section{
      
 }
 
-button{
-     width: 124px;
-     height: 51px;
-     border-radius: 6px;
-     border-width: 1px;
-     background: #6FBF44;
-     color: #fff;
-     font-size: 26px;
-     font-weight: 400;
-}
-
 .more{
      color:#6FBF44;
      margin-top:72.5px;
-     position: absolute;
+     
      font-size:24px;
      background: transparent;
      border: none;
+     width: 140px;
+     margin-right: 0px;
 }
 
 
